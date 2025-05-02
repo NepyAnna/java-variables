@@ -18,7 +18,7 @@ public class Universe {
         long totalPopulation = 8118302456L;
 
         //Un número largo sin tener un separador de millares, cuesta mucho de leer, es más fácil entender este valor 8 118 302 456, java nos permite tener este espacio con el underscore, cada tres dígitos. 
-        
+
         //Inténtalo de nuevo con separador de millares
 
         long humenPopulation = 8_118_302_456L;
@@ -37,6 +37,11 @@ public class Universe {
 
         //Corre este código y mira cuál es el problema
 
-        System.out.println(String.format("Hay %d + %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars, andromedaStars));
+        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
         System.out.println("Hay " + milkyWayStars + andromedaStars + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
         //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación mat
+
+        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
+        System.out.println("Hay " + (milkyWayStars + andromedaStars) + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
+    }
+}
