@@ -15,31 +15,35 @@ public class Universe {
         //Eso es debido a que cuando definimos una variable de tipo long debemos poner una L al final del último número.
         //Inténtalo de nuevo
 
-
+        long totalPopulation = 8118302456L;
 
         //Un número largo sin tener un separador de millares, cuesta mucho de leer, es más fácil entender este valor 8 118 302 456, java nos permite tener este espacio con el underscore, cada tres dígitos. 
         
         //Inténtalo de nuevo con separador de millares
-        //Escribe aquí tu código
 
-
+        long humenPopulation = 8_118_302_456L;
 
         //Imprime el resultado final
 
+        System.out.println(String.format("La población mundial actual es de %d habitantes.", humenPopulation));
 
         //La vía láctea parece tener unos cuatrocientos mil millones de estrellas, crea una variable con esa cantidad.
 
-
+        long milkyWayStars = 400_000_000_000L;
 
         //Andrómeda parece tener un billón de estrellas, crea una variable con esa cantidad.
 
+        long andromedaStars = 1_000_000_000L;
 
         //Corre este código y mira cuál es el problema
 
+        System.out.println(String.format("Hay %d + %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars, andromedaStars));
+        System.out.println("Hay " + milkyWayStars + andromedaStars + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
         //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación matemática. Para dar prioridades de operaciones, usamos los paréntesis. 
 
         //Intenta resolver este problema dentro del System.out.println para que nos devuelva la suma de milkyWay + andromeda
-        //Escribe aquí tu código
 
+        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
+        System.out.println("Hay " + (milkyWayStars + andromedaStars) + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
     }
 }
