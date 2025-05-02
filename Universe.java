@@ -39,11 +39,4 @@ public class Universe {
 
         System.out.println(String.format("Hay %d + %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars, andromedaStars));
         System.out.println("Hay " + milkyWayStars + andromedaStars + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
-        //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación matemática. Para dar prioridades de operaciones, usamos los paréntesis. 
-
-        //Intenta resolver este problema dentro del System.out.println para que nos devuelva la suma de milkyWay + andromeda
-
-        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
-        System.out.println("Hay " + (milkyWayStars + andromedaStars) + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
-    }
-}
+        //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación mat
