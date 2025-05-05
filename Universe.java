@@ -33,7 +33,7 @@ public class Universe {
 
         //Andrómeda parece tener un billón de estrellas, crea una variable con esa cantidad.
 
-        long andromedaStars = 1_000_000_000L;
+        long andromedaStars = 1_000_000_000_000L;
 
         //Corre este código y mira cuál es el problema
 
