@@ -25,7 +25,7 @@ public class Universe {
 
         //Imprime el resultado final
 
-        System.out.println(String.format("La población mundial actual es de %d habitantes.", humenPopulation));
+        System.out.printf("La población mundial actual es de %d habitantes.%n", humenPopulation);
 
         //La vía láctea parece tener unos cuatrocientos mil millones de estrellas, crea una variable con esa cantidad.
 
@@ -37,11 +37,11 @@ public class Universe {
 
         //Corre este código y mira cuál es el problema
 
-        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
+        System.out.printf("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.%n", milkyWayStars + andromedaStars);
         System.out.println("Hay " + milkyWayStars + andromedaStars + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
         //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación mat
 
-        System.out.println(String.format("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.", milkyWayStars + andromedaStars));
+        System.out.printf("Hay %d de estrellas en Andrómeda y en la Vía Láctea juntas.%n", milkyWayStars + andromedaStars);
         System.out.println("Hay " + (milkyWayStars + andromedaStars) + " de estrellas en Andrómeda y en la Vía Láctea juntas.");
     }
 }
