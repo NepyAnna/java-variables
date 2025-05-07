@@ -11,12 +11,12 @@ public class AboutMe {
         String location = "Valencia";
 
         //Reemplaza <name> y <age> concatenando el String con las variables creadas. 
-        System.out.println(String.format("Mi nombre es %s, tengo %d años y soy de %s.", name, age, country));
+        System.out.printf("Mi nombre es %s, tengo %d años y soy de %s.%n", name, age, country);
 
         //Reemplaza <programmingLanguage> y <hours> concatenando el String con las variables creadas. 
-        System.out.println(String.format("Estoy estudiando %s y practico %d horas al día.", programLanguage, hours));
+        System.out.printf("Estoy estudiando %s y practico %d horas al día.%n", programLanguage, hours);
 
         //Reemplaza <hobby> y <place> concatenando el String con las variables creadas.
-        System.out.println(String.format("Mi pasatiempo favorito es %s y lo practico en %s", hobby, location));
+        System.out.printf("Mi pasatiempo favorito es %s y lo practico en %s%n", hobby, location);
     }
 }

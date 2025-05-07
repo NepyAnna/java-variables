@@ -10,25 +10,25 @@ public class EnergyEfficiency {
         char ratingG = 'G';
 
         //Reemplaza <very_good> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %c es muy buena.", ratingA));
+        System.out.printf("Una calificación %c es muy buena.%n", ratingA);
 
         //Reemplaza <good> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %c es buena.", ratingB));
+        System.out.printf("Una calificación %c es buena.%n", ratingB);
         
         //Reemplaza <fairly_good> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %s es medianamente buena.", ratingC));
+        System.out.printf("Una calificación %s es medianamente buena.%n", ratingC);
         
         //Reemplaza <neutral> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %s es neutral.", ratingD));
+        System.out.printf("Una calificación %s es neutral.%n", ratingD);
         
         //Reemplaza <fairly_bad> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %s es medianamente mala.", ratingE));
+        System.out.printf("Una calificación %s es medianamente mala.%n", ratingE);
         
         //Reemplaza <bad> concatenando el String con la variable creada. 
-        System.out.println(String.format("Una calificación %s es mala.", ratingF));
+        System.out.printf("Una calificación %s es mala.%n", ratingF);
 
         //Reemplaza <very_bad> concatenando el String con la variable creada.
-        System.out.println(String.format("Una calificación %s es muy mala.", ratingG));
+        System.out.printf("Una calificación %s es muy mala.%n", ratingG);
 
     }
 }
